@@ -96,6 +96,11 @@ footer {
     margin-top: 1.3125rem;
 }
 
+/* .footer-section__social a {
+    min-height: 1.5rem;
+    margin-right: 2rem;
+} */
+
 .footer-section__social-icons {
     max-height: 1.5rem;
     margin-right: 2rem;
