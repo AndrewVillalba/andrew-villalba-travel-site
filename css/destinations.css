@@ -65,7 +65,7 @@
     background-position: center;
     padding-top: 6rem;
     width: 100%;
-    min-height: 638px;
+    min-height: 38rem;
 }
 
 .destination-name {
@@ -89,23 +89,23 @@
 
 .destination-cards-day {
     width: 15.8125rem;
-    height: 23.75rem; 
+    height: 22rem; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .destination-cards-day__heading {
-    /* font-size: 1rem; */
     width: 90%;
     border-bottom: .125rem solid black;
     display: flex;
     justify-content: center;
-    margin-top: -0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .destination-cards-day__activity {
@@ -116,6 +116,7 @@
     width: 90%;
     text-align: center;
     height: 3rem;
+    margin-bottom: 1rem;
 }
 
 #last-item {
