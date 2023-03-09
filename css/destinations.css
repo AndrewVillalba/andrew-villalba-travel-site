@@ -1,78 +1,22 @@
-/* .destination {
-    background-image: url(/assets/Images/hawaii.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 6rem;
-    width: 100%;
-    min-height: 638px;
-}
-
-.destination-name {
-    color: white;
-    font-size: 3.75rem;
-}
-
-.destination-cards {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 1.5rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
-    margin-bottom: 3rem;
-}
-
-.destination-cards__card {
-    width: 15.8125rem;
-    height: 23.75rem; 
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-cards__card-content {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; 
-    align-items: center;
-    height: 100%;
-    padding: 16px;
-}
-
-.destination-cards__card-content-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.destinations-cards__card-content-activity {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid black;
-} */
-
 .destination {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.hawaii-bg {
     background-image: url(/assets/Images/hawaii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding-top: 6rem;
+    background-position: 0 60%;
     width: 100%;
-    min-height: 38rem;
+    height: 100%;
 }
 
 .destination-name {
     color: white;
     font-size: 5rem;
-    padding-left: 2rem;
-    padding-top: 0.5rem;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
 }
 
 .destination-cards {
@@ -83,8 +27,8 @@
     margin: 1.5rem;
     margin-left: 12rem;
     margin-right: 12rem;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-bottom: 8rem;
+    margin-top: 3.5rem;
 }
 
 .destination-cards-day {
@@ -122,6 +66,7 @@
 #last-item {
     margin-bottom: 2.5rem;
 }
+
 
 
 
