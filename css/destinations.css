@@ -30,35 +30,24 @@
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     background-color: white;
-}
-
-.destination-cards__card-weekday {
     display: flex;
     justify-content: center;
-    width: 90%;
-    font-size: 20px;
-    border-bottom: solid black 2px;
-    /* margin-bottom: 2.5rem; */
+    align-items: center;
 }
 
 .destination-cards__card-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    /* padding-top: 1rem; */
+    height: 100%;
+    padding: 16px;
 }
 
-.destination-cards__card-activities li {
-    list-style: none;
+.destination-cards__card-content-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
-.destination-cards__card-activity {
-    background-color: #FEFAF5;
-    width: 1rem;
-    height: 1rem;
-}
+

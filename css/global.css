@@ -90,19 +90,19 @@ footer {
     padding-right: 40px;
 }
 
+.footer-section-social {
+    width: 15%;
+}
+
 .footer-section__social {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.3125rem;
+    margin-top: 12px;
 }
 
-/* .footer-section__social a {
-    min-height: 1.5rem;
-    margin-right: 2rem;
-} */
-
 .footer-section__social-icons {
+    position: relative;
+    top: 0.6rem;
     max-height: 1.5rem;
-    margin-right: 2rem;
 }
 
