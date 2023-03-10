@@ -13,8 +13,8 @@
       }
 }
  
-body {
-    animation: fade-in 0.5s;
+.animation {
+    animation: fade-in 0.7s;
 }
 
 .header-nav {
