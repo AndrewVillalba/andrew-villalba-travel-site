@@ -53,6 +53,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    border-radius: 5px;
 }
 
 .page-bottom__card-greece {
@@ -79,8 +80,10 @@
   
 .page-bottom__card {
     width: 15.8125rem;
-    height: 23.75rem; 
+    height: 23.70rem; 
     border-radius: 5px; 
+    border: 1px solid black;
+    border-color: rgba(0,0,0,0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     display: flex;
     flex-direction: column;
