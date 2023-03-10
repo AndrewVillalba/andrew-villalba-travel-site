@@ -70,12 +70,19 @@
     margin-bottom: 1.5rem;
 }
 
+.destination-cards-day__activities{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .destination-cards-day__activity {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FEFAF5;
-    width: 90%;
+    width: 100%;
     text-align: center;
     height: 3rem;
     margin-bottom: 1rem;
