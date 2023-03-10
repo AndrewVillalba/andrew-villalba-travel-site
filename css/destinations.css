@@ -12,6 +12,24 @@
     height: 100%;
 }
 
+.iceland-bg {
+    background-image: url(/assets/Images/iceland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.greece-bg {
+    background-image: url(/assets/Images/greece.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    width: 100%;
+    height: 100%;
+}
+
 .destination-name {
     color: white;
     font-size: 5rem;
