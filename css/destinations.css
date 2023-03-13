@@ -3,14 +3,14 @@
     margin-bottom: 6rem;
 }
 
-@keyframes fade-in {
+/* @keyframes fade-in {
     from {
         opacity: 0;
       }
       to {
         opacity: 1;
       }
-}
+} */
 
 .hawaii-bg {
     background-image: url(/assets/Images/hawaii.jpg);
@@ -97,9 +97,11 @@
     margin-bottom: 1rem;
 }
 
-#last-item {
+.destination-cards-day__activity-margin {
     margin-bottom: 2.5rem;
 }
+
+
 
 
 
